@@ -1,0 +1,12 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: file-converter
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 110MB
+
+custom:
+  filePath: src/main/resources/static/document/
